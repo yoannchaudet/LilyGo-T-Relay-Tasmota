@@ -112,6 +112,8 @@ At 12 volts,
 
 - Using [Tasmota][tasmota], with all relays on, the board draws 340 mA. With all relays off, it is oscillating between 30 and 50 mA.
 
+**UPDATE:** The board is using a MP1593 step down (see [datasheet][mp1593]). That means efficiency can probably be increased by reducing voltage closer to 9 volts or lower.
+
 <!-- References -->
 [lilygo-t-relay]: https://github.com/Xinyuan-LilyGO/LilyGo-T-Relay
 [arduino]: https://www.arduino.cc/en/software
@@ -124,3 +126,4 @@ At 12 volts,
 [tasmota32]: https://ota.tasmota.com/tasmota32/release/
 [datasheet]: https://www.espressif.com/sites/default/files/documentation/esp32-wrover-e_esp32-wrover-ie_datasheet_en.pdf
 [4-relay-template]: https://templates.blakadder.com/lilygo_T-Relay.html
+[mp1593]: https://html.alldatasheet.com/html-pdf/189108/mps/mp1593dn/55/1/mp1593dn.html
